@@ -1,0 +1,324 @@
+{
+  "deployment_target": "Render Blueprint or Docker-compatible platform",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "sha256": "30c118c9e9077383fd2f80db00002069e06782b849695d9f89b9ce87e54c990a",
+      "size_bytes": 110
+    },
+    {
+      "path": ".env.example",
+      "sha256": "d848a513da1463934d2ff04f7b1acd871813baba5122ddd33df56be6602ebb8b",
+      "size_bytes": 1209
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "3130b3a29931cba93c5fd647b7acedd773391d3a973451f03072c37737659085",
+      "size_bytes": 526
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "bbad59ce0553854c8353ffe0d2cf4fd55ad885e6d08c8543ccf9bb0c418b7424",
+      "size_bytes": 132
+    },
+    {
+      "path": ".python-version",
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
+      "size_bytes": 5
+    },
+    {
+      "path": "AGENT_USAGE.md",
+      "sha256": "38d9f3709975fce6a81b948fb4e9c3e78f1c947838721dd25f2de87a780b9577",
+      "size_bytes": 4572
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "92e872f3e9f1c38725e2f0b6f31286ce43a687b90f09f781e4b3a6c806357c08",
+      "size_bytes": 345
+    },
+    {
+      "path": "Makefile",
+      "sha256": "865b3c0280f8ded002ab4fb09d13bed3dc1b0b1aa4b2818855f125cc435506fa",
+      "size_bytes": 425
+    },
+    {
+      "path": "PACKAGE_STATUS.md",
+      "sha256": "3a8fbcb0ea96e70758e4a200dd10337b02ccd3641660ac59bb06c84a16045201",
+      "size_bytes": 1435
+    },
+    {
+      "path": "README.md",
+      "sha256": "93d15309071d648f48876b2f6016c428d7a69a216178f80be29ad50ac6343263",
+      "size_bytes": 6704
+    },
+    {
+      "path": "data/README.md",
+      "sha256": "1a5aefdcc314e00616579d4e426a565403859c4bd8c9bda7db14685457a6f52b",
+      "size_bytes": 818
+    },
+    {
+      "path": "data/cfpb_engine_smoke_summary.json",
+      "sha256": "be51ab038d9501946ed0640ae600eba0d0d25795cd751fd8b061a0b85fdc3913",
+      "size_bytes": 9301
+    },
+    {
+      "path": "data/cfpb_feedback_sample.csv",
+      "sha256": "4fe0bfc087a312d64a6e632b70d9381f52df00eb64cd1ffc4e70e68094fa71b6",
+      "size_bytes": 320789
+    },
+    {
+      "path": "docker-compose.yml",
+      "sha256": "f08e30fed5467e4c8fa1023e602b398ea0179fed9eed90f171c984c9db713a20",
+      "size_bytes": 637
+    },
+    {
+      "path": "docs/API_WORKFLOW.md",
+      "sha256": "e3c132923c3b0799daab631f06eaeb960f072cfebca0d8f9ae2175164ef89f84",
+      "size_bytes": 1881
+    },
+    {
+      "path": "docs/DEPLOY_RENDER.md",
+      "sha256": "b4d6748839cfbcbdda63623d18fb14b84b122bba1e6c100f29c929fcc3765edd",
+      "size_bytes": 2769
+    },
+    {
+      "path": "docs/ENGINE_ARCHITECTURE.md",
+      "sha256": "36c744cc4a00a4905120f339a9485d67263a0b63295b97161de81c8577b41f1f",
+      "size_bytes": 2232
+    },
+    {
+      "path": "docs/FREE_AI_SETUP.md",
+      "sha256": "00b0c1cf3a2bf545e63fbea81ea4d31de508891b88c484cf4c8fe5302764119c",
+      "size_bytes": 1472
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "f8fe4cc7f2eeef1bacd341a54bb11e1dd4afa3ea555131ee407206b78776c364",
+      "size_bytes": 2897
+    },
+    {
+      "path": "docs/openapi.json",
+      "sha256": "60194340f5e6c3cc950be9daa3471fe9d391474bbd5c6443993089aa084811d6",
+      "size_bytes": 73759
+    },
+    {
+      "path": "docs/release-dashboard.png",
+      "sha256": "2cf22b65e769cca987aed0063d29decea70871d81e827ed680291c4a088890b5",
+      "size_bytes": 817749
+    },
+    {
+      "path": "docs/release-report.png",
+      "sha256": "b53c7d2208ba7578e4aedd9d7dfeaee6c7f0cf75a712f70f4a1a4b2696157f0a",
+      "size_bytes": 790180
+    },
+    {
+      "path": "migrations/001_initial.sql",
+      "sha256": "4296ab42a0690cf596f55c11a32703cdf05ae0860463742bf464fb89b72600a7",
+      "size_bytes": 7724
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "2c919ca5b647ba2d14d392690a77daeab3f86636137550a7f068a3a26b40dfdb",
+      "size_bytes": 1243
+    },
+    {
+      "path": "render.yaml",
+      "sha256": "80261093a86bc7253f898c251fa1b6b38128de3ec16435229c2d79410445ba01",
+      "size_bytes": 1095
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "9e211372fe90292b3dab369fd110636e663ba9d6493be6f04e9c1ac6939e2365",
+      "size_bytes": 107
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "a56fda13875edfd65fc3104909250dc3c2b7b460dddf53873d16126b1de76621",
+      "size_bytes": 274
+    },
+    {
+      "path": "scripts/fetch_cfpb_sample.py",
+      "sha256": "d840c4f8c3731449128d1cb652ed144e2718f7b411e87e08606b420629aa812c",
+      "size_bytes": 2724
+    },
+    {
+      "path": "scripts/run_engine_smoke.py",
+      "sha256": "0bba0ef4e091d340a6d5c7592a251807d95f7b38e94e5d1602ddc816cffbcc0c",
+      "size_bytes": 4653
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "sha256": "d4863d8aae84e3ff67094f2e7c3e1b014c9e463f0f94e8cc85581af76976b096",
+      "size_bytes": 5068
+    },
+    {
+      "path": "src/feedback_intelligence_engine/__init__.py",
+      "sha256": "805e9768593233b40efe1c32ccfa061ee51121fd16c02b3bf8d476f0950c6179",
+      "size_bytes": 59
+    },
+    {
+      "path": "src/feedback_intelligence_engine/api.py",
+      "sha256": "bfb02ee9cca9f357dd9222846a98d0bad20463a41aef6a127d7c0c9c2a63ecf3",
+      "size_bytes": 17641
+    },
+    {
+      "path": "src/feedback_intelligence_engine/config.py",
+      "sha256": "6bb4085c2825612d6826aa65e615f8bd61d40e05ece1f12297e85438068998d9",
+      "size_bytes": 2895
+    },
+    {
+      "path": "src/feedback_intelligence_engine/db.py",
+      "sha256": "9f061bc9c6663cd1939e42e67f95d8a41aadc70f20d2c225810514733c7a5390",
+      "size_bytes": 1049
+    },
+    {
+      "path": "src/feedback_intelligence_engine/main.py",
+      "sha256": "f08702fd55871daa1680f2cce1cb832cadd4f6252a754345dfe79acb15afbeee",
+      "size_bytes": 4712
+    },
+    {
+      "path": "src/feedback_intelligence_engine/models.py",
+      "sha256": "e2bd902fe24a46333df3fcd7ea3529256d9145d47ace7b8fd20ababcf16ead2c",
+      "size_bytes": 11533
+    },
+    {
+      "path": "src/feedback_intelligence_engine/request_context.py",
+      "sha256": "49ce6e2f61b23f45e5bca318a1a8bdd3debde9cfc9d465b772cf8ec424c34374",
+      "size_bytes": 186
+    },
+    {
+      "path": "src/feedback_intelligence_engine/schemas.py",
+      "sha256": "4e2aeb25015e10f453e01b597b346433f96cb56147b6c8fdf1537239006e047c",
+      "size_bytes": 6027
+    },
+    {
+      "path": "src/feedback_intelligence_engine/services/analytics.py",
+      "sha256": "bdc61dff2d03c1ce2e01323d6c6c5eb4fb30006371fbbd432e4ac1acd996aeb1",
+      "size_bytes": 2689
+    },
+    {
+      "path": "src/feedback_intelligence_engine/services/clustering.py",
+      "sha256": "0b68dc0642c551d5708f8698ef943db43e6b765cdbf3c6f0adb7483d51dbbf46",
+      "size_bytes": 11174
+    },
+    {
+      "path": "src/feedback_intelligence_engine/services/csv_ingestion.py",
+      "sha256": "ab33645448e7228101e46fa91f0ddb95a6ea63394db2eb3957d5689fb85ddf6c",
+      "size_bytes": 8127
+    },
+    {
+      "path": "src/feedback_intelligence_engine/services/reports.py",
+      "sha256": "2fbeda5733e0e5512d0b8429b7813325d6461194d37a174ab75707766237690b",
+      "size_bytes": 3735
+    },
+    {
+      "path": "src/feedback_intelligence_engine/services/review.py",
+      "sha256": "8bbe867ee53a7fb058460205d4d82b3cf205c19e720b443279a10234cb95dd60",
+      "size_bytes": 6638
+    },
+    {
+      "path": "src/feedback_intelligence_engine/services/synthesis.py",
+      "sha256": "b568757f19e6899b12621d83809db0c04212cc72e52eeca9669345e218e58b19",
+      "size_bytes": 15041
+    },
+    {
+      "path": "src/feedback_intelligence_engine/services/workflow.py",
+      "sha256": "fce9eb0f33ce8da2a37af987055cf3e97a1548cd31b7b7b5b421f07a81341263",
+      "size_bytes": 7501
+    },
+    {
+      "path": "src/feedback_intelligence_engine/utils/text.py",
+      "sha256": "9f7e856ba29bb381615dcbfa32cb1c9585ee3bb898d00676a5dddb145435f8c4",
+      "size_bytes": 1137
+    },
+    {
+      "path": "src/feedback_intelligence_engine/web/README.md",
+      "sha256": "b3a2b64153e2927ae381312d057273734d0ed8f583de328edc4d1240b61ab562",
+      "size_bytes": 1041
+    },
+    {
+      "path": "src/feedback_intelligence_engine/web/app.js",
+      "sha256": "770fc71d39eca73f3e108ddef774c330b5b32c45cfa45ef164ce8655918536d6",
+      "size_bytes": 55518
+    },
+    {
+      "path": "src/feedback_intelligence_engine/web/cfpb_feedback_sample.csv",
+      "sha256": "4fe0bfc087a312d64a6e632b70d9381f52df00eb64cd1ffc4e70e68094fa71b6",
+      "size_bytes": 320789
+    },
+    {
+      "path": "src/feedback_intelligence_engine/web/index.html",
+      "sha256": "9b513b2faff3c29d3b12f03b312672855755afce93e591a7f62f40b596fad752",
+      "size_bytes": 949
+    },
+    {
+      "path": "src/feedback_intelligence_engine/web/preview.html",
+      "sha256": "a9806fb7de80c5b6ea78f7ee414dfbfbd8c8eef8e4c6f1b3362e836684b74c49",
+      "size_bytes": 740
+    },
+    {
+      "path": "src/feedback_intelligence_engine/web/styles.css",
+      "sha256": "f755d11064ae55eaf6f58905c8b279cb5c0da667a6dd25ded3463697907b0bf2",
+      "size_bytes": 22459
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "275b89ce82445ad312806edf65bd550af63f2c718897717f27d788cb3429bdce",
+      "size_bytes": 1174
+    },
+    {
+      "path": "tests/test_ai_provider_contract.py",
+      "sha256": "eb39601996559a03d68bdb2c525cbcfab2dab1a641d2dfae8815dffeb9e4295f",
+      "size_bytes": 3747
+    },
+    {
+      "path": "tests/test_deployment_contract.py",
+      "sha256": "1a63203cab66ac96a6a457eeb01215f22c8864d5e7530dfc3a3c965ac0a83da2",
+      "size_bytes": 1599
+    },
+    {
+      "path": "tests/test_end_to_end.py",
+      "sha256": "1e4a9a22a0f164ff0349fd10862adea2891e4ebc74258a32b76bf98a9d1ebf55",
+      "size_bytes": 3556
+    },
+    {
+      "path": "tests/test_free_provider_contract.py",
+      "sha256": "41fda610989ce75ea5188d19b2a57e0513b00d921990ff401e8a2de2d4406cec",
+      "size_bytes": 4152
+    },
+    {
+      "path": "tests/test_grounding.py",
+      "sha256": "de9942a934654e14bb06cb219513b910b2b0ba811d351bd835842cc5084120db",
+      "size_bytes": 1623
+    },
+    {
+      "path": "tests/test_ingestion.py",
+      "sha256": "5a111bf4e188cfe503ddb089074705e5df1c32adaf523b421be0876091e1a358",
+      "size_bytes": 1259
+    },
+    {
+      "path": "tests/test_review_operations.py",
+      "sha256": "527327130dd508bbea82993f052bffd38cae36ea46cc75339bb4d914f4e26cd7",
+      "size_bytes": 2515
+    },
+    {
+      "path": "tests/test_ui_delivery.py",
+      "sha256": "3d66d063809a38daf4bda6871867d0b6f0b6220e7daf46fc4ceea6c4629aaa88",
+      "size_bytes": 594
+    }
+  ],
+  "generated_at_utc": "2026-07-29T11:50:15.390684+00:00",
+  "operator_secret_required_for_hosted_llm": "GITHUB_TOKEN (models:read) or OPENAI_API_KEY; heuristic mode works without a key",
+  "product": "Signalboard Feedback Intelligence",
+  "verification": {
+    "automated_tests": 14,
+    "browser_console_errors": 0,
+    "browser_e2e": "passed",
+    "evidence_coverage_percent": 100.0,
+    "real_data_rows_processed": 250,
+    "real_data_theme_count": 39,
+    "report_reload_persistence": "passed",
+    "statement_coverage_percent": 83.47
+  },
+  "version": "1.0.0"
+}
