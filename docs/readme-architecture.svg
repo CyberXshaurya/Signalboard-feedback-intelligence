@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="620" viewBox="0 0 1440 620" role="img" aria-labelledby="title desc">
+<title id="title">Signalboard architecture</title><desc id="desc">Single-service frontend and API with PostgreSQL and isolated AI providers.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111411"/><stop offset="1" stop-color="#37331e"/></linearGradient><filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-opacity=".25"/></filter></defs>
+<rect width="1440" height="620" rx="34" fill="url(#bg)"/>
+<text x="56" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="800" fill="#fff">Architecture</text>
+<text x="56" y="100" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#b9beb5">One deployable service, explicit trust boundaries.</text>
+<g font-family="Inter,Segoe UI,Arial,sans-serif" filter="url(#s)">
+  <g transform="translate(80 160)"><rect width="280" height="120" rx="24" fill="#f4f5ef"/><text x="28" y="42" font-size="14" font-weight="800" fill="#7d6b19">REVIEWER UI</text><text x="28" y="75" font-size="24" font-weight="800" fill="#252822">HTML · CSS · JS</text><text x="28" y="101" font-size="14" fill="#666b63">Dashboards, evidence, review actions</text></g>
+  <g transform="translate(450 160)"><rect width="300" height="120" rx="24" fill="#ffd64a"/><text x="28" y="42" font-size="14" font-weight="800" fill="#6d5c17">APPLICATION</text><text x="28" y="75" font-size="24" font-weight="800" fill="#252822">FastAPI REST API</text><text x="28" y="101" font-size="14" fill="#5f5b44">Validation, orchestration, review</text></g>
+  <g transform="translate(840 160)"><rect width="250" height="120" rx="24" fill="#e5ebe4"/><text x="28" y="42" font-size="14" font-weight="800" fill="#526054">STATE</text><text x="28" y="75" font-size="24" font-weight="800" fill="#252822">PostgreSQL</text><text x="28" y="101" font-size="14" fill="#666b63">Projects, evidence, audits, reports</text></g>
+  <g transform="translate(1180 160)"><rect width="180" height="120" rx="24" fill="#f4f5ef"/><text x="24" y="42" font-size="14" font-weight="800" fill="#7d6b19">FILES</text><text x="24" y="75" font-size="22" font-weight="800" fill="#252822">CSV ingest</text><text x="24" y="101" font-size="14" fill="#666b63">sample + uploads</text></g>
+</g>
+<path d="M360 220h90M750 220h90M1090 220h90" stroke="#aeb4aa" stroke-width="3"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <g transform="translate(90 390)"><rect width="260" height="120" rx="24" fill="#282b26" stroke="#555b52"/><text x="26" y="38" font-size="14" font-weight="800" fill="#ffd64a">DETERMINISTIC ENGINE</text><text x="26" y="72" font-size="21" font-weight="800" fill="#fff">Clustering + analytics</text><text x="26" y="98" font-size="14" fill="#b8bdb4">Counts never come from the LLM</text></g>
+  <g transform="translate(445 390)"><rect width="260" height="120" rx="24" fill="#282b26" stroke="#555b52"/><text x="26" y="38" font-size="14" font-weight="800" fill="#ffd64a">REVIEW SERVICE</text><text x="26" y="72" font-size="21" font-weight="800" fill="#fff">Transactional actions</text><text x="26" y="98" font-size="14" fill="#b8bdb4">Merge, split, approve, reject</text></g>
+  <g transform="translate(800 390)"><rect width="260" height="120" rx="24" fill="#282b26" stroke="#555b52"/><text x="26" y="38" font-size="14" font-weight="800" fill="#ffd64a">REPORT SERVICE</text><text x="26" y="72" font-size="21" font-weight="800" fill="#fff">Immutable snapshots</text><text x="26" y="98" font-size="14" fill="#b8bdb4">Versioned reviewed synthesis</text></g>
+  <g transform="translate(1155 350)"><rect width="205" height="200" rx="24" fill="#fff7cf"/><text x="24" y="38" font-size="14" font-weight="800" fill="#7d6b19">PROVIDER ADAPTER</text><text x="24" y="76" font-size="18" font-weight="800" fill="#252822">GitHub Models</text><text x="24" y="106" font-size="18" font-weight="800" fill="#252822">OpenAI</text><text x="24" y="136" font-size="18" font-weight="800" fill="#252822">Ollama</text><text x="24" y="166" font-size="18" font-weight="800" fill="#252822">Fallback</text></g>
+</g>
+<path d="M600 280v55H220v55M600 335H575v55M600 335H930v55M750 220h510v130" stroke="#92978f" stroke-width="3" fill="none"/>
+</svg>
